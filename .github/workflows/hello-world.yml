@@ -9,3 +9,5 @@ jobs:
       - uses: ./
         with:
           jokeType: General
+        id: joke
+      - run : echo ${{steps.joke.outputs.jokeId}}    

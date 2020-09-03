@@ -9,6 +9,8 @@ const run = async ()=>{
     const joke= await res.json();
     console.log(`${joke.type} : ${joke.setup}`)
     console.log(`${joke.punchline}`)
+
+    core.setOutput('jokeId' , joke)
 }
 
 run()

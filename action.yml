@@ -8,6 +8,10 @@ inputs:
         default: 
             'General'
 
+outputs:
+    jokeId: 
+        description: 'the joke result'
+
 runs:
     using: 'node12'
     main: 'dist/index.js'
