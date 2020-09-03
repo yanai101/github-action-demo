@@ -1,0 +1,7 @@
+name: 'hello-world'
+description: 'github action demo'
+author: 'yanai101'
+
+runs:
+    using: 'node12'
+    main: 'index.js'
