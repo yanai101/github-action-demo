@@ -2,6 +2,12 @@ name: 'hello-world'
 description: 'github action demo'
 author: 'yanai101'
 
+inputs:
+    jokeType:
+        description: 'joke type (General Knock-Knock Programming)'
+        default: 
+            'General'
+
 runs:
     using: 'node12'
     main: 'dist/index.js'
